@@ -12,4 +12,10 @@ body.addEventListener('mousemove', function(ev) {console.log("mouse moved"); con
 body.addEventListener('mousedown', function(ev) {console.log("mouse down"); console.log(ev)});
 body.addEventListener('mouseup', function(ev) {console.log("mouse up"); console.log(ev)});
 
+mc.get('pan').set({ direction: Hammer.DIRECTION_ALL, threshold: 0 }); 
+
+//mc.on('panstart', touchstart);
+mc.on('panmove', touchmove);
+//mc.on('panend', touchend);
+
 
