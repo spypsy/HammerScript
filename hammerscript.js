@@ -9,7 +9,7 @@ body.addEventListener('touchstart', function(ev) {console.log("touch started"); 
 body.addEventListener('touchend', function(ev) {console.log("touch ended"); console.log(ev)});
 
 body.addEventListener('mousemove', function(ev) {console.log("mouse moved"); console.log(ev)});
-body.addEventListener('mousedown', function(ev) {console.log("touch started"); console.log(ev)});
-body.addEventListener('mouseup', function(ev) {console.log("touch ended"); console.log(ev)});
+body.addEventListener('mousedown', function(ev) {console.log("mouse down"); console.log(ev)});
+body.addEventListener('mouseup', function(ev) {console.log("mouse up"); console.log(ev)});
 
 
