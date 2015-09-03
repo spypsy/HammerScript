@@ -6,3 +6,7 @@ mc.on("panleft panright", function(ev) {
 body.addEventListener('mousemove', function(ev) {console.log("mouse moved"); console.log(ev)});
 
 body.addEventListener('touchmove', function(ev) {console.log("touch moved"); console.log(ev)});
+body.addEventListener('touchstart', function(ev) {console.log("touch started"); console.log(ev)});
+body.addEventListener('touchend', function(ev) {console.log("touch ended"); console.log(ev)});
+
+
